@@ -1,7 +1,12 @@
 const modalBtn = document.querySelector('.modal__button')
-const modal = document.querySelector('.modal')
+const getBtn = document.querySelector('.course__button')
+const modal = document.querySelector('.modal') 
 
 modalBtn.addEventListener('click', () => {
+  modal.style.display = 'flex'  
+})
+
+getBtn.addEventListener('click', () => {
   modal.style.display = 'flex'  
 })
 
